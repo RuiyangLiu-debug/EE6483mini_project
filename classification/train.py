@@ -77,8 +77,8 @@ class Train:
 
 
 if __name__ == "__main__":
-    train_data_path = "/workspace/code/classification/datasets"
-    model = "yolo11s-cls.yaml"
+    train_data_path = "/workspace/code/datasets"
+    model = "/workspace/code/classification/yolo11s-cls.yaml"
     scale = "s"
     epoch = 150
     imgsz = 384
